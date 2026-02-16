@@ -1,0 +1,236 @@
+{
+    "events": [
+        {
+            "date": "Oct 24th, 2021",
+            "name": "Kombo Klash Online Q3",
+            "url": "https://www.start.gg/tournament/kombo-klash-online-q3-1",
+            "major": null,
+            "role": "bracket-runner",
+            "notes": "Bracket-runner for that chaotic rotendo tourney"
+        },
+        {
+            "date": "Jan 29th, 2022",
+            "name": "Killer Instinct at Frosty Faustings XIV 2022",
+            "url": "https://www.start.gg/tournament/killer-instinct-at-frosty-faustings-xiv-2022/",
+            "major": "Frosty Faustings XIV",
+            "role": "organizer",
+            "notes": ""
+        },
+        {
+            "date": "Jun 25th, 2022",
+            "name": "Killer Instinct at CEO2022",
+            "url": "https://www.start.gg/tournament/killer-instinct-at-ceo2022/",
+            "major": "CEO 2022",
+            "role": "organizer",
+            "notes": ""
+        },
+        {
+            "date": "Nov 20th, 2022",
+            "name": "Bakersfield Comic-Con 2022 Third Strike Tournament",
+            "url": "https://www.start.gg/tournament/bakersfield-comic-con-2022-third-strike-tournament/",
+            "major": null,
+            "role": "bracket-runner",
+            "notes": ""
+        },
+        {
+            "date": "Feb 4th 2023",
+            "name": "Official Side Events at Frosty Faustings XV 2023",
+            "url": "https://www.start.gg/tournament/official-side-events-at-frosty-faustings-xv-2023/event/killer-instinct-saturday-10-30-am-start-5-entry-on/",
+            "major": "Frost Faustings XV",
+            "role": "game-lead",
+            "notes": "Technically not organizer but did everything except set up top 4 stream"
+        },
+        {
+            "date": "Apr 22nd, 2023",
+            "name": "Killer Instinct at Texas Showdown 2023",
+            "url": "https://www.start.gg/tournament/killer-instinct-at-texas-showdown-2023/",
+            "major": "Texas Showdown 2023",
+            "role": "organizer",
+            "notes": "Official community tournament."
+        },
+        {
+            "date": "May 26th, 2023",
+            "name": "KI S1 at CB2023",
+            "url": "https://www.start.gg/tournament/ki-s1-at-cb2023/",
+            "major": "Combo Breaker 2023",
+            "role": "organizer",
+            "notes": "Unofficial side tournament."
+        },
+        {
+            "date": "Aug 5th, 2023",
+            "name": "Killer Instinct at Evo",
+            "url": "https://www.start.gg/tournament/killer-instinct-at-evo/",
+            "major": "Evo 2023",
+            "role": "organizer",
+            "notes": "Official community tournament"
+        },
+        {
+            "date": "Jan 27th, 2024",
+            "name": "KI at Frosty Faustings 2024 Round 2 Electric Boogaloo",
+            "url": "https://www.start.gg/tournament/ki-at-frosty-faustings-2024-round-2-electric-boogaloo/",
+            "major": "Frosty Faustings XVI",
+            "role": "organizer",
+            "notes": ""
+        },
+        {
+            "date": "Mar 23rd, 2024",
+            "name": "DabsAndCabs March Madness",
+            "url": "https://www.start.gg/tournament/dabsandcabs-march-madness/",
+            "major": null,
+            "role": "bracket-runner",
+            "notes": ""
+        },
+        {
+            "date": "May 25th, 2024",
+            "name": "DPs? D-PLEASE 👊",
+            "url": "https://www.start.gg/tournament/dps-d-please/",
+            "major": "Combo Breaker 2024",
+            "role": "organizer",
+            "notes": "Unofficial side tourney."
+        },
+        {
+            "date": "May 25th, 2024",
+            "name": "KI S1 at CB2024",
+            "url": "https://www.start.gg/tournament/ki-s1-at-cb2024/",
+            "major": "Combo Breaker 2024",
+            "role": "organizer",
+            "notes": "Unofficial side tourney."
+        },
+        {
+            "date": "Jul 19th, 2024",
+            "name": "Community Showcase at Evo 2024",
+            "url": "https://www.start.gg/tournament/community-showcase-at-evo-2024/event/killer-instinct",
+            "major": "Evo 2024",
+            "role": "game-lead",
+            "notes": "Official game-lead for the community showcase at Evo"
+        },
+        {
+            "date": "Sep 21st, 2024",
+            "name": "September Showdown",
+            "url": "https://www.start.gg/tournament/september-showdown/",
+            "major": null,
+            "role": "bracket-runner",
+            "notes": ""
+        },
+        {
+            "date": "Dec 14th, 2024",
+            "name": "DabsAndCabs: Tech The Halls",
+            "url": "https://www.start.gg/tournament/dabsandcabs-tech-the-halls/",
+            "major": null,
+            "role": "bracket-runner",
+            "notes": ""
+        },
+        {
+            "date": "Jan 11th, 2025",
+            "name": "3S: Don of a New Age (Jazzy Ranking Event)",
+            "url": "https://www.start.gg/tournament/3s-don-of-a-new-age-jazzy-ranking-event/",
+            "major": null,
+            "role": "organizer",
+            "notes": "Jazzy Ranking Event"
+        },
+        {
+            "date": "Feb 15th, 2025",
+            "name": "3s + U, a Match Made in Heaven (Jazzy Ranking Event)",
+            "url": "https://www.start.gg/tournament/3s-u-a-match-made-in-heaven-jazzy-ranking-event/",
+            "major": null,
+            "role": "organizer",
+            "notes": "Jazzy Ranking Event"
+        },
+        {
+            "date": "Mar 6th, 2025",
+            "name": "TNS Killer Instinct Tournament (Crossplay) #5",
+            "url": "https://www.start.gg/tournament/tns-killer-instinct-tournament-crossplay-5/",
+            "major": "TNS",
+            "role": "seeder",
+            "notes": "Seeder, community outreach (promotion)"
+        },
+        {
+            "date": "Mar 15th, 2025",
+            "name": "3-Strike Clover (Jazzy Ranking Event)",
+            "url": "https://www.start.gg/tournament/3-strike-clover-jazzy-ranking-event/",
+            "major": null,
+            "role": "oganizer",
+            "notes": "Jazzy Ranking Event"
+        },
+        {
+            "date": "Apr 19th, 2025",
+            "name": "Puff Puff Parry!",
+            "url": "https://www.start.gg/tournament/puff-puff-parry/",
+            "major": null,
+            "role": "bracket-runner",
+            "notes": ""
+        },
+        {
+            "date": "May 3rd, 2025",
+            "name": "3rd of May Strike (Jazzy Ranking Event)",
+            "url": "https://www.start.gg/tournament/3rd-of-may-strike-jazzy-ranking-event/",
+            "major": null,
+            "role": "oganizer",
+            "notes": "Jazzy Ranking Event"
+        },
+        {
+            "date": "May 11th, 2025",
+            "name": "TNS Killer Instinct Tournament (Crossplay) #6",
+            "url": "https://www.start.gg/tournament/tns-killer-instinct-tournament-crossplay-6/",
+            "major": "TNS",
+            "role": "seeder",
+            "notes": "Seeder, community outreach (promotion)"
+        },
+        {
+            "date": "May 23rd, 2025",
+            "name": "KI S3 AE side tourney",
+            "url": "https://www.start.gg/tournament/ki-s3-ae-side-tourney/",
+            "major": "Combo Breaker 2025",
+            "role": "oganizer",
+            "notes": "Unofficial side tourney."
+        },
+        {
+            "date": "May 24th, 2025",
+            "name": "KI S1 at CB2025",
+            "url": "https://www.start.gg/tournament/ki-s1-at-cb2025/details",
+            "major": "Combo Breaker 2025",
+            "role": "oganizer",
+            "notes": "Unofficial side tourney."
+        },
+        {
+            "date": "Jun 28th, 2025",
+            "name": "Maru & Friends",
+            "url": "https://www.start.gg/tournament/maru-friends-1/",
+            "major": null,
+            "role": "bracket-runner",
+            "notes": ""
+        },
+        {
+            "date": "Jul 20th, 2025",
+            "name": "TNS Killer Instinct Tournament (Crossplay) #7",
+            "url": "https://www.start.gg/tournament/tns-killer-instinct-tournament-crossplay-7/",
+            "major": "TNS",
+            "role": "seeder",
+            "notes": "Seeder, community outreach (promotion)"
+        },
+        {
+            "date": "Jan 3rd, 2026",
+            "name": "TNS Killer Instinct Tournament (Crossplay) #8",
+            "url": "https://www.start.gg/tournament/tns-killer-instinct-tournament-crossplay-8/",
+            "major": "TNS",
+            "role": "seeder",
+            "notes": "Seeder, community outreach (promotion)"
+        },
+        {
+            "date": "Jan 9th, 2026",
+            "name": "New Year New Threes",
+            "url": "https://www.start.gg/tournament/new-year-new-threes/",
+            "major": null,
+            "role": "organizer",
+            "notes": "Jazzy Ranking Event"
+        },
+        {
+            "date": "today",
+            "name": "Today",
+            "url": "",
+            "major": null,
+            "role": "",
+            "notes": ""
+        }
+    ]
+}
