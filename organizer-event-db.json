@@ -3,6 +3,7 @@
         {
             "date": "Oct 24th, 2021",
             "name": "Kombo Klash Online Q3",
+            "game": "Killer Instinct (2013)",
             "url": "https://www.start.gg/tournament/kombo-klash-online-q3-1",
             "major": null,
             "role": "bracket-runner",
@@ -11,6 +12,7 @@
         {
             "date": "Jan 29th, 2022",
             "name": "Killer Instinct at Frosty Faustings XIV 2022",
+            "game": "Killer Instinct (2013)",
             "url": "https://www.start.gg/tournament/killer-instinct-at-frosty-faustings-xiv-2022/",
             "major": "Frosty Faustings XIV",
             "role": "organizer",
@@ -19,6 +21,7 @@
         {
             "date": "Jun 25th, 2022",
             "name": "Killer Instinct at CEO2022",
+            "game": "Killer Instinct (2013)",
             "url": "https://www.start.gg/tournament/killer-instinct-at-ceo2022/",
             "major": "CEO 2022",
             "role": "organizer",
@@ -27,6 +30,7 @@
         {
             "date": "Nov 20th, 2022",
             "name": "Bakersfield Comic-Con 2022 Third Strike Tournament",
+            "game": "Street Fighter III: 3rd Strike",
             "url": "https://www.start.gg/tournament/bakersfield-comic-con-2022-third-strike-tournament/",
             "major": null,
             "role": "bracket-runner",
@@ -35,6 +39,7 @@
         {
             "date": "Feb 4th 2023",
             "name": "Official Side Events at Frosty Faustings XV 2023",
+            "game": "Killer Instinct (2013)",
             "url": "https://www.start.gg/tournament/official-side-events-at-frosty-faustings-xv-2023/event/killer-instinct-saturday-10-30-am-start-5-entry-on/",
             "major": "Frost Faustings XV",
             "role": "game-lead",
@@ -43,6 +48,7 @@
         {
             "date": "Apr 22nd, 2023",
             "name": "Killer Instinct at Texas Showdown 2023",
+            "game": "Killer Instinct (2013)",
             "url": "https://www.start.gg/tournament/killer-instinct-at-texas-showdown-2023/",
             "major": "Texas Showdown 2023",
             "role": "organizer",
@@ -51,6 +57,7 @@
         {
             "date": "May 26th, 2023",
             "name": "KI S1 at CB2023",
+            "game": "Killer Instinct (2013)",
             "url": "https://www.start.gg/tournament/ki-s1-at-cb2023/",
             "major": "Combo Breaker 2023",
             "role": "organizer",
@@ -59,6 +66,7 @@
         {
             "date": "Aug 5th, 2023",
             "name": "Killer Instinct at Evo",
+            "game": "Killer Instinct (2013)",
             "url": "https://www.start.gg/tournament/killer-instinct-at-evo/",
             "major": "Evo 2023",
             "role": "organizer",
@@ -67,6 +75,7 @@
         {
             "date": "Jan 27th, 2024",
             "name": "KI at Frosty Faustings 2024 Round 2 Electric Boogaloo",
+            "game": "Killer Instinct (2013)",
             "url": "https://www.start.gg/tournament/ki-at-frosty-faustings-2024-round-2-electric-boogaloo/",
             "major": "Frosty Faustings XVI",
             "role": "organizer",
@@ -75,6 +84,7 @@
         {
             "date": "Mar 23rd, 2024",
             "name": "DabsAndCabs March Madness",
+            "game": "Street Fighter III: 3rd Strike",
             "url": "https://www.start.gg/tournament/dabsandcabs-march-madness/",
             "major": null,
             "role": "bracket-runner",
@@ -83,6 +93,7 @@
         {
             "date": "May 25th, 2024",
             "name": "DPs? D-PLEASE 👊",
+            "game": "Killer Instinct (2013)",
             "url": "https://www.start.gg/tournament/dps-d-please/",
             "major": "Combo Breaker 2024",
             "role": "organizer",
@@ -91,6 +102,7 @@
         {
             "date": "May 25th, 2024",
             "name": "KI S1 at CB2024",
+            "game": "Killer Instinct (2013)",
             "url": "https://www.start.gg/tournament/ki-s1-at-cb2024/",
             "major": "Combo Breaker 2024",
             "role": "organizer",
@@ -99,6 +111,7 @@
         {
             "date": "Jul 19th, 2024",
             "name": "Community Showcase at Evo 2024",
+            "game": "Killer Instinct (2013)",
             "url": "https://www.start.gg/tournament/community-showcase-at-evo-2024/event/killer-instinct",
             "major": "Evo 2024",
             "role": "game-lead",
@@ -107,6 +120,7 @@
         {
             "date": "Sep 21st, 2024",
             "name": "September Showdown",
+            "game": "Street Fighter III: 3rd Strike",
             "url": "https://www.start.gg/tournament/september-showdown/",
             "major": null,
             "role": "bracket-runner",
@@ -115,6 +129,7 @@
         {
             "date": "Dec 14th, 2024",
             "name": "DabsAndCabs: Tech The Halls",
+            "game": "Street Fighter III: 3rd Strike",
             "url": "https://www.start.gg/tournament/dabsandcabs-tech-the-halls/",
             "major": null,
             "role": "bracket-runner",
@@ -123,6 +138,7 @@
         {
             "date": "Jan 11th, 2025",
             "name": "3S: Don of a New Age (Jazzy Ranking Event)",
+            "game": "Street Fighter III: 3rd Strike",
             "url": "https://www.start.gg/tournament/3s-don-of-a-new-age-jazzy-ranking-event/",
             "major": null,
             "role": "organizer",
@@ -131,6 +147,7 @@
         {
             "date": "Feb 15th, 2025",
             "name": "3s + U, a Match Made in Heaven (Jazzy Ranking Event)",
+            "game": "Street Fighter III: 3rd Strike",
             "url": "https://www.start.gg/tournament/3s-u-a-match-made-in-heaven-jazzy-ranking-event/",
             "major": null,
             "role": "organizer",
@@ -139,6 +156,7 @@
         {
             "date": "Mar 6th, 2025",
             "name": "TNS Killer Instinct Tournament (Crossplay) #5",
+            "game": "Killer Instinct (2013)",
             "url": "https://www.start.gg/tournament/tns-killer-instinct-tournament-crossplay-5/",
             "major": "TNS",
             "role": "seeder",
@@ -147,6 +165,7 @@
         {
             "date": "Mar 15th, 2025",
             "name": "3-Strike Clover (Jazzy Ranking Event)",
+            "game": "Street Fighter III: 3rd Strike",
             "url": "https://www.start.gg/tournament/3-strike-clover-jazzy-ranking-event/",
             "major": null,
             "role": "oganizer",
@@ -155,6 +174,7 @@
         {
             "date": "Apr 19th, 2025",
             "name": "Puff Puff Parry!",
+            "game": "Street Fighter III: 3rd Strike",
             "url": "https://www.start.gg/tournament/puff-puff-parry/",
             "major": null,
             "role": "bracket-runner",
@@ -163,6 +183,7 @@
         {
             "date": "May 3rd, 2025",
             "name": "3rd of May Strike (Jazzy Ranking Event)",
+            "game": "Street Fighter III: 3rd Strike",
             "url": "https://www.start.gg/tournament/3rd-of-may-strike-jazzy-ranking-event/",
             "major": null,
             "role": "oganizer",
@@ -171,6 +192,7 @@
         {
             "date": "May 11th, 2025",
             "name": "TNS Killer Instinct Tournament (Crossplay) #6",
+            "game": "Killer Instinct (2013)",
             "url": "https://www.start.gg/tournament/tns-killer-instinct-tournament-crossplay-6/",
             "major": "TNS",
             "role": "seeder",
@@ -179,6 +201,7 @@
         {
             "date": "May 23rd, 2025",
             "name": "KI S3 AE side tourney",
+            "game": "Killer Instinct (2013)",
             "url": "https://www.start.gg/tournament/ki-s3-ae-side-tourney/",
             "major": "Combo Breaker 2025",
             "role": "oganizer",
@@ -187,6 +210,7 @@
         {
             "date": "May 24th, 2025",
             "name": "KI S1 at CB2025",
+            "game": "Killer Instinct (2013)",
             "url": "https://www.start.gg/tournament/ki-s1-at-cb2025/details",
             "major": "Combo Breaker 2025",
             "role": "oganizer",
@@ -195,6 +219,7 @@
         {
             "date": "Jun 28th, 2025",
             "name": "Maru & Friends",
+            "game": "Street Fighter III: 3rd Strike",
             "url": "https://www.start.gg/tournament/maru-friends-1/",
             "major": null,
             "role": "bracket-runner",
@@ -203,6 +228,7 @@
         {
             "date": "Jul 20th, 2025",
             "name": "TNS Killer Instinct Tournament (Crossplay) #7",
+            "game": "Killer Instinct (2013)",
             "url": "https://www.start.gg/tournament/tns-killer-instinct-tournament-crossplay-7/",
             "major": "TNS",
             "role": "seeder",
@@ -211,6 +237,7 @@
         {
             "date": "Jan 3rd, 2026",
             "name": "TNS Killer Instinct Tournament (Crossplay) #8",
+            "game": "Killer Instinct (2013)",
             "url": "https://www.start.gg/tournament/tns-killer-instinct-tournament-crossplay-8/",
             "major": "TNS",
             "role": "seeder",
@@ -219,7 +246,17 @@
         {
             "date": "Jan 9th, 2026",
             "name": "New Year New Threes",
+            "game": "Street Fighter III: 3rd Strike",
             "url": "https://www.start.gg/tournament/new-year-new-threes/",
+            "major": null,
+            "role": "organizer",
+            "notes": "Jazzy Ranking Event"
+        },
+        {
+            "date": "Feb 13th, 2026",
+            "name": "<3S",
+            "game": "Street Fighter III: 3rd Strike",
+            "url": "https://www.start.gg/tournament/3s/",
             "major": null,
             "role": "organizer",
             "notes": "Jazzy Ranking Event"
@@ -227,6 +264,7 @@
         {
             "date": "today",
             "name": "Today",
+            "game": "",
             "url": "",
             "major": null,
             "role": "",
