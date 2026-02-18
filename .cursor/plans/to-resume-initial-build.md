@@ -1,5 +1,5 @@
 # Prompt
-Create a modern website resume that displays a grid of Fighting Game Events (and details) that BaalsDepe (aka Yuki) has run. The grid must be filterable by "role" and/or "game" categories. Events names should be fuzzy-searchable via a text input. The Event-name search field should be located towards the top of the page. The grid of event details should be paginated with user-options for 20, 40 and 100 events per page. Use @to-resume-initial-build-md as directives for the Tech Stack, Filter categories, Docker and Webpack requirements.
+Create a modern website that displays a grid of Fighting Game Events (and all details) that BaalsDepe (aka Yuki) has run. The grid must be filterable by "role" and/or "game" categories. Events names should be fuzzy-searchable via a text input. The Event-name search field should be located towards the top of the page. The grid of event details should be paginated with user-options for 20, 40 and 100 events per page. Use @.cursor/plans/to-resume-initial-build.md as directives for the Tech Stack, Color/Style Scheme, Filter categories, Docker and Webpack requirements.
 # Tech Stack
 - PHP8.4.*
 - MariaDB
@@ -10,6 +10,9 @@ Create a modern website resume that displays a grid of Fighting Game Events (and
 - Node (if necessary)
 - Composer (if necessary)
 - dotenv (for local docker setup)
+# Color Scheme
+- Primary colors: #00ff00, #ff33cc
+- Secondary colors: #00ffff, #000000
 # Filter Roles
 Tied to the "role" field in `./organizer-event-db.json`. Structured here as `Display ("role" value)`.
 - Event Organizer (organizer)
