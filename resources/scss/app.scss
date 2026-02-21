@@ -97,6 +97,7 @@ body {
 // Filters
 .filter {
   display: flex;
+  flex-basis: 100%;
   flex-wrap: wrap;
   align-items: center;
   gap: 0.5rem;
@@ -133,6 +134,7 @@ body {
     background: $primary-pink;
     border-color: $primary-pink;
     color: $secondary-black;
+    font-weight: 700;
   }
 }
 
