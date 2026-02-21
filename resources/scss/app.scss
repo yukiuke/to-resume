@@ -217,7 +217,7 @@ body {
 // Card
 .event-card {
   background-color: $bg-dark;
-  background-image: url('../img/candy-bg.png');
+  background-image: url('../img/candy-bg.png'), radial-gradient(ellipse at top right, $secondary-cyan 1%, transparent 25%), radial-gradient(ellipse at bottom left, $primary-shadow 1%, transparent 25%);
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto 150%;
