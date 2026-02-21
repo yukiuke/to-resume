@@ -89,7 +89,7 @@ export default function MainApp() {
     return (
       <div className="app">
         <header className="app__header">
-          <h1 className="app__title">Fighting Game Events — BaalsDepe (Yuki)</h1>
+          <h1 className="app__title">Fighting Game Events — BaalsDepe</h1>
         </header>
         <p className="app__loading">Loading events…</p>
       </div>
@@ -99,7 +99,7 @@ export default function MainApp() {
   return (
     <div className="app">
       <header className="app__header">
-        <h1 className="app__title">Fighting Game Events — BaalsDepe (Yuki)</h1>
+        <h1 className="app__title">Fighting Game Events — BaalsDepe</h1>
       </header>
 
       <div className="app__toolbar">

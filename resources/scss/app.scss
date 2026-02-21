@@ -21,7 +21,7 @@ $bg-dark: #0a0a0a;
 body {
   margin: 0;
   font-family: system-ui, -apple-system, sans-serif;
-  background-color: $secondary-black;
+  background-color: #909090;
   color: $primary-green;
   min-height: 100vh;
   line-height: 1.5;
@@ -46,7 +46,7 @@ body {
   font-size: 1.75rem;
   font-weight: 700;
   color: $primary-green;
-  text-shadow: 0 0 8px rgba(0, 255, 0, 0.4);
+  text-shadow: 10px 5px 10px black,10px 5px 10px black;
 }
 
 .app__loading {
@@ -62,8 +62,7 @@ body {
 
 // Search at top
 .search-bar {
-  width: 100%;
-  max-width: 400px;
+  flex-basis: 100%;
 }
 
 .search-bar__label {
@@ -71,6 +70,7 @@ body {
   font-size: 0.875rem;
   color: $secondary-cyan;
   margin-bottom: 0.35rem;
+  text-shadow: 2px 2px 5px black,3px 3px 5px black;
 }
 
 .search-bar__input {
@@ -104,6 +104,7 @@ body {
   font-size: 0.875rem;
   color: $secondary-cyan;
   margin-right: 0.25rem;
+  text-shadow: 2px 2px 5px black,3px 3px 5px black;
 }
 
 .filter__chips {
@@ -116,7 +117,7 @@ body {
   padding: 0.4rem 0.75rem;
   font-size: 0.875rem;
   color: $primary-green;
-  background: transparent;
+  background: rgba(0, 0, 0, 0.5);
   border: 1px solid $primary-green;
   border-radius: 4px;
   cursor: pointer;
@@ -152,6 +153,7 @@ body {
   label {
     font-size: 0.875rem;
     color: $secondary-cyan;
+    text-shadow: 2px 2px 5px black,3px 3px 5px black;
   }
 }
 
@@ -174,13 +176,14 @@ body {
 .pagination__range {
   font-size: 0.875rem;
   color: $secondary-cyan;
+  text-shadow: 2px 2px 5px black,3px 3px 5px black;
 }
 
 .pagination__btn {
   padding: 0.4rem 0.75rem;
   font-size: 0.875rem;
   color: $primary-green;
-  background: transparent;
+  background: rgba(0, 0, 0, 0.5);
   border: 1px solid $primary-green;
   border-radius: 4px;
   cursor: pointer;
