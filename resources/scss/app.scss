@@ -1,6 +1,7 @@
 // Plan: primary #00ff00, #ff33cc; secondary #00ffff, #000000
 $primary-green: #00ff00;
 $primary-pink: #ff33cc;
+$primary-shadow: #c09;
 $secondary-cyan: #00ffff;
 $secondary-black: #000000;
 $bg-dark: #0a0a0a;
@@ -8,6 +9,7 @@ $bg-dark: #0a0a0a;
 :root {
   --primary-green: #{$primary-green};
   --primary-pink: #{$primary-pink};
+  --primary-shadow: #{$primary-shadow};
   --secondary-cyan: #{$secondary-cyan};
   --secondary-black: #{$secondary-black};
 }
@@ -21,7 +23,7 @@ $bg-dark: #0a0a0a;
 body {
   margin: 0;
   font-family: system-ui, -apple-system, sans-serif;
-  background-color: #909090;
+  background-color: $secondary-black;
   color: $primary-green;
   min-height: 100vh;
   line-height: 1.5;
@@ -46,7 +48,7 @@ body {
   font-size: 1.75rem;
   font-weight: 700;
   color: $primary-green;
-  text-shadow: 10px 5px 10px black,10px 5px 10px black;
+  text-shadow: 10px 5px 10px $primary-shadow,10px 5px 10px $primary-shadow;
 }
 
 .app__loading {
@@ -70,7 +72,7 @@ body {
   font-size: 0.875rem;
   color: $secondary-cyan;
   margin-bottom: 0.35rem;
-  text-shadow: 2px 2px 5px black,3px 3px 5px black;
+  text-shadow: 2px 2px 5px $primary-shadow,3px 3px 5px $primary-shadow;
 }
 
 .search-bar__input {
@@ -104,7 +106,7 @@ body {
   font-size: 0.875rem;
   color: $secondary-cyan;
   margin-right: 0.25rem;
-  text-shadow: 2px 2px 5px black,3px 3px 5px black;
+  text-shadow: 2px 2px 5px $primary-shadow,3px 3px 5px $primary-shadow;
 }
 
 .filter__chips {
@@ -153,7 +155,7 @@ body {
   label {
     font-size: 0.875rem;
     color: $secondary-cyan;
-    text-shadow: 2px 2px 5px black,3px 3px 5px black;
+    text-shadow: 2px 2px 5px $primary-shadow,3px 3px 5px $primary-shadow;
   }
 }
 
@@ -212,7 +214,11 @@ body {
 
 // Card
 .event-card {
-  background: $bg-dark;
+  background-color: $bg-dark;
+  background-image: url('../img/candy-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 150%;
   border: 1px solid $primary-green;
   border-radius: 6px;
   padding: 1rem;
