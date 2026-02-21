@@ -225,7 +225,8 @@ body {
   transition: box-shadow 0.15s;
 
   &:hover {
-    box-shadow: 0 0 12px rgba(0, 255, 0, 0.2);
+    background-color: rgba(0, 255, 0, .1);
+    box-shadow: 0 0 12px rgba(0, 255, 0, 0.5);
   }
 }
 
