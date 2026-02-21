@@ -1,5 +1,6 @@
 export const ROLE_OPTIONS = [
-  { value: 'organizer', label: 'Event Organizer' },
+  { value: 'event-organizer', label: 'Event Organizer' },
+  { value: 'tournament-organizer', label: 'Tournament Organizer' },
   { value: 'game-lead', label: 'Game Lead' },
   { value: 'bracket-runner', label: 'Bracket Runner' },
   { value: 'seeder', label: 'Seeder' },
