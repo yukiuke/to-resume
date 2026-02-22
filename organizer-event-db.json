@@ -7,7 +7,7 @@
             "url": "https://www.start.gg/tournament/kombo-klash-online-q3-1",
             "major": null,
             "role": "bracket-runner",
-            "notes": "Bracket-runner for that chaotic rotendo tourney"
+            "notes": "Bracket-runner for that chaotic tourney"
         },
         {
             "date": "Jan 29th, 2022",
@@ -15,7 +15,7 @@
             "game": "Killer Instinct (2013)",
             "url": "https://www.start.gg/tournament/killer-instinct-at-frosty-faustings-xiv-2022/",
             "major": "Frosty Faustings XIV",
-            "role": "organizer",
+            "role": "tournament-organizer",
             "notes": ""
         },
         {
@@ -24,7 +24,7 @@
             "game": "Killer Instinct (2013)",
             "url": "https://www.start.gg/tournament/killer-instinct-at-ceo2022/",
             "major": "CEO 2022",
-            "role": "organizer",
+            "role": "tournament-organizer",
             "notes": ""
         },
         {
@@ -51,7 +51,7 @@
             "game": "Killer Instinct (2013)",
             "url": "https://www.start.gg/tournament/killer-instinct-at-texas-showdown-2023/",
             "major": "Texas Showdown 2023",
-            "role": "organizer",
+            "role": "tournament-organizer",
             "notes": "Official community tournament."
         },
         {
@@ -60,7 +60,7 @@
             "game": "Killer Instinct (2013)",
             "url": "https://www.start.gg/tournament/ki-s1-at-cb2023/",
             "major": "Combo Breaker 2023",
-            "role": "organizer",
+            "role": "tournament-organizer",
             "notes": "Unofficial side tournament."
         },
         {
@@ -69,7 +69,7 @@
             "game": "Killer Instinct (2013)",
             "url": "https://www.start.gg/tournament/killer-instinct-at-evo/",
             "major": "Evo 2023",
-            "role": "organizer",
+            "role": "tournament-organizer",
             "notes": "Official community tournament"
         },
         {
@@ -78,7 +78,7 @@
             "game": "Killer Instinct (2013)",
             "url": "https://www.start.gg/tournament/ki-at-frosty-faustings-2024-round-2-electric-boogaloo/",
             "major": "Frosty Faustings XVI",
-            "role": "organizer",
+            "role": "tournament-organizer",
             "notes": ""
         },
         {
@@ -96,7 +96,7 @@
             "game": "Killer Instinct (2013)",
             "url": "https://www.start.gg/tournament/dps-d-please/",
             "major": "Combo Breaker 2024",
-            "role": "organizer",
+            "role": "tournament-organizer",
             "notes": "Unofficial side tourney."
         },
         {
@@ -105,7 +105,7 @@
             "game": "Killer Instinct (2013)",
             "url": "https://www.start.gg/tournament/ki-s1-at-cb2024/",
             "major": "Combo Breaker 2024",
-            "role": "organizer",
+            "role": "tournament-organizer",
             "notes": "Unofficial side tourney."
         },
         {
@@ -141,7 +141,7 @@
             "game": "Street Fighter III: 3rd Strike",
             "url": "https://www.start.gg/tournament/3s-don-of-a-new-age-jazzy-ranking-event/",
             "major": null,
-            "role": "organizer",
+            "role": "event-organizer",
             "notes": "Jazzy Ranking Event"
         },
         {
@@ -150,7 +150,7 @@
             "game": "Street Fighter III: 3rd Strike",
             "url": "https://www.start.gg/tournament/3s-u-a-match-made-in-heaven-jazzy-ranking-event/",
             "major": null,
-            "role": "organizer",
+            "role": "event-organizer",
             "notes": "Jazzy Ranking Event"
         },
         {
@@ -168,7 +168,7 @@
             "game": "Street Fighter III: 3rd Strike",
             "url": "https://www.start.gg/tournament/3-strike-clover-jazzy-ranking-event/",
             "major": null,
-            "role": "oganizer",
+            "role": "event-organizer",
             "notes": "Jazzy Ranking Event"
         },
         {
@@ -186,7 +186,7 @@
             "game": "Street Fighter III: 3rd Strike",
             "url": "https://www.start.gg/tournament/3rd-of-may-strike-jazzy-ranking-event/",
             "major": null,
-            "role": "oganizer",
+            "role": "event-organizer",
             "notes": "Jazzy Ranking Event"
         },
         {
@@ -204,7 +204,7 @@
             "game": "Killer Instinct (2013)",
             "url": "https://www.start.gg/tournament/ki-s3-ae-side-tourney/",
             "major": "Combo Breaker 2025",
-            "role": "oganizer",
+            "role": "tournament-organizer",
             "notes": "Unofficial side tourney."
         },
         {
@@ -213,7 +213,7 @@
             "game": "Killer Instinct (2013)",
             "url": "https://www.start.gg/tournament/ki-s1-at-cb2025/details",
             "major": "Combo Breaker 2025",
-            "role": "oganizer",
+            "role": "tournament-organizer",
             "notes": "Unofficial side tourney."
         },
         {
@@ -249,7 +249,7 @@
             "game": "Street Fighter III: 3rd Strike",
             "url": "https://www.start.gg/tournament/new-year-new-threes/",
             "major": null,
-            "role": "organizer",
+            "role": "event-organizer",
             "notes": "Jazzy Ranking Event"
         },
         {
@@ -258,7 +258,7 @@
             "game": "Street Fighter III: 3rd Strike",
             "url": "https://www.start.gg/tournament/3s/",
             "major": null,
-            "role": "organizer",
+            "role": "event-organizer",
             "notes": "Jazzy Ranking Event"
         },
         {

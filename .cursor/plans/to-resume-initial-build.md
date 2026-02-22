@@ -1,5 +1,3 @@
-# Prompt
-Create a modern website that displays a grid of Fighting Game Events (and all details) that BaalsDepe (aka Yuki) has run. The grid must be filterable by "role" and/or "game" categories. Events names should be fuzzy-searchable via a text input. The Event-name search field should be located towards the top of the page. The grid of event details should be paginated with user-options for 20, 40 and 100 events per page. Use @.cursor/plans/to-resume-initial-build.md as directives for the Tech Stack, Color/Style Scheme, Filter categories, Docker and Webpack requirements.
 # Tech Stack
 - PHP8.4.*
 - MariaDB
