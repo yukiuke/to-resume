@@ -2,7 +2,7 @@ export default function SearchBar({ value, onChange, placeholder = 'Search event
   return (
     <div className="search-bar">
       <label htmlFor="event-search" className="search-bar__label">
-        Event name
+        Event / Major name
       </label>
       <input
         id="event-search"
