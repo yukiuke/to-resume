@@ -44,7 +44,7 @@ export default function MainApp() {
 
     if (search.trim()) {
       const fuse = new Fuse(list, {
-        keys: ['name'],
+        keys: ['name', 'major'],
         threshold: 0.4,
       });
       list = fuse.search(search.trim()).map((r) => r.item);
