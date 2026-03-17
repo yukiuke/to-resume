@@ -6,7 +6,7 @@ A Laravel 12 + React 19 site that displays fighting game events run by BaalsDepe
 
 - **Backend:** PHP 8.4, Laravel 12
 - **Frontend:** React 19, Webpack, SCSS
-- **Data:** Events from `organizer-event-db.json` (API: `GET /api/events`)
+- **Data:** Events stored in MariaDB and exposed via Laravel Eloquent (seeded from `organizer-event-db.json`, API: `GET /api/events`)
 - **Docker:** PHP app + MariaDB with volumes for local development
 
 ## Run locally
@@ -39,9 +39,9 @@ Code changes on the host are reflected in the container via the mounted volume. 
 
 ### Without Docker
 
-- PHP 8.2 + Composer: `composer install`, `cp .env.example .env`, `php artisan key:generate`, `php artisan serve`
+- PHP 8.2 + Composer: `composer install`, `cp .env.example .env`, `php artisan key:generate`, `php artisan migrate`, `php artisan db:seed`, `php artisan serve`
 - Node: `npm install`, `npm run build` (or `npm run dev` for watch)
-- Events are read from `organizer-event-db.json`; no database required for the events list.
+- Events are seeded from `organizer-event-db.json` into the database; the events list is served from MariaDB via Eloquent.
 
 ## Features
 

@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Fighting Game Events — BaalsDepe</title>
+    <title>Fighting Game Events</title>
     <link rel="icon" href="/favicon.png">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>

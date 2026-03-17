@@ -29,5 +29,4 @@ INSERT INTO events (event_date, name, game, url, major, role, notes) VALUES
 ("Jul 20th, 2025", "TNS Killer Instinct Tournament (Crossplay) #7", "Killer Instinct (2013)", "https://www.start.gg/tournament/tns-killer-instinct-tournament-crossplay-7/", "TNS", "seeder", "Seeder, community outreach (promotion)"),
 ("Jan 3rd, 2026", "TNS Killer Instinct Tournament (Crossplay) #8", "Killer Instinct (2013)", "https://www.start.gg/tournament/tns-killer-instinct-tournament-crossplay-8/", "TNS", "seeder", "Seeder, community outreach (promotion)"),
 ("Jan 9th, 2026", "New Year New Threes", "Street Fighter III: 3rd Strike", "https://www.start.gg/tournament/new-year-new-threes/", "NULL", "event-organizer", "Jazzy Ranking Event"),
-("Feb 13th, 2026", "<3S", "Street Fighter III: 3rd Strike", "https://www.start.gg/tournament/3s/", "NULL", "event-organizer", "Jazzy Ranking Event"),
-("today", "Today", "", "", "NULL", "", "");
+("Feb 13th, 2026", "<3S", "Street Fighter III: 3rd Strike", "https://www.start.gg/tournament/3s/", "NULL", "event-organizer", "Jazzy Ranking Event");
