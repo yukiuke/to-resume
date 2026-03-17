@@ -32,7 +32,7 @@ A Laravel 12 + React 19 site that displays fighting game events run by BaalsDepe
 3. Start app and DB:
 
    ```bash
-   docker compose up --build
+   docker compose up -d --build
    ```
 
 4. Open **http://localhost:8000**
@@ -50,6 +50,12 @@ Code changes on the host are reflected in the container via the mounted volume. 
 - PHP 8.2 + Composer: `composer install`, `cp .env.example .env`, `php artisan key:generate`, `php artisan migrate`, `php artisan db:seed`, `php artisan serve`
 - Node: `npm install`, `npm run build` (or `npm run dev` for watch)
 - Events are seeded from `organizer-event-db.json` into the database; the events list is served from MariaDB via Eloquent.
+
+## Admin panel
+
+- **URL:** `/baalsdepe/admin` (login at `/baalsdepe/admin/login`).
+- **Auth:** Set `YOSHI_ADMIN_NAME` and `YOSHI_ADMIN_PASS` in `.env`; the root admin user is created/updated when you run `php artisan db:seed` (see `AdminUserSeeder`). Use that email and password to sign in.
+- **Features:** Events CRUD (list, add, edit, delete) with a Material-UI layout.
 
 ## Features
 
