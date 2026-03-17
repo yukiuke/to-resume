@@ -17,17 +17,25 @@ A Laravel 12 + React 19 site that displays fighting game events run by BaalsDepe
 
    ```bash
    cp .env.example .env
-   docker run --rm -v "$(pwd):/app" -w /app composer:latest php artisan key:generate
+   # generate app key using the app image (has pdo_mysql/mariadb driver)
+   docker compose run --rm app php artisan key:generate
    docker run --rm -v "$(pwd):/app" -w /app node:22-alpine npm install && npx webpack --mode=production
    ```
 
-2. Start app and DB:
+2. Run migrations and seed the MariaDB database:
+
+   ```bash
+   docker compose run --rm app php artisan migrate
+   docker compose run --rm app php artisan db:seed
+   ```
+
+3. Start app and DB:
 
    ```bash
    docker compose up --build
    ```
 
-3. Open **http://localhost:8000**
+4. Open **http://localhost:8000**
 
 Code changes on the host are reflected in the container via the mounted volume. Rebuild frontend after changing JS/SCSS:
 
