@@ -10,7 +10,7 @@ use Illuminate\Http\Request;
 class EventController extends Controller
 {
     /**
-     * List events for admin (ordered by event_date desc).
+     * List events for admin (ordered by event_date desc). Returns JSON for the API.
      */
     public function index(): JsonResponse
     {

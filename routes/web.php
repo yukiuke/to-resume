@@ -18,7 +18,12 @@ Route::middleware('auth')->prefix('baalsdepe/admin/api')->group(function (): voi
     Route::delete('events/{event}', [AdminEventController::class, 'destroy']);
 });
 
-// SPA catch-all
+// Admin SPA shell (separate view/styles from public app)
+Route::get('/baalsdepe/admin', fn () => view('admin.app'));
+Route::get('/baalsdepe/admin/login', fn () => view('admin.app'));
+Route::get('/baalsdepe/admin/events', fn () => view('admin.app'));
+
+// SPA catch-all (public app)
 Route::get('/baalsdepe/{any?}', function () {
     return view('app');
 })->where('any', '.*');
