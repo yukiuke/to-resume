@@ -1,6 +1,6 @@
-# Fighting Game Events — BaalsDepe
+# Fighting Game Events
 
-A Laravel 12 + React 19 site that displays fighting game events run by BaalsDepe with filtering by role/game, fuzzy search by event name, and pagination.
+A Laravel 12 + React 19 site that displays fighting game events run by someone with filtering by role/game, fuzzy search by event name, and pagination.
 
 ## Stack
 
