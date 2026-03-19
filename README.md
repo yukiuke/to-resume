@@ -24,8 +24,8 @@ A Laravel 12 + React 19 site that displays fighting game events run by BaalsDepe
 
 2. Start DB (If Migrating):
    docker compose up -d db
-   # optional: watch logs until MariaDB is accepting connections
-   # docker compose logs -f db
+   optional: watch logs until MariaDB is accepting connections
+   docker compose logs -f db
 
 3. Run migrations and seed the MariaDB database:
 

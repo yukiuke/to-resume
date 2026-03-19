@@ -27,7 +27,7 @@ class AdminUserSeeder extends Seeder
             ['email' => $email],
             [
                 'name' => $email,
-                'password' => Hash::make($password),
+                'password' => $password,
             ]
         );
     }
