@@ -1,0 +1,1 @@
+{"version":3,"file":"css/admin.css","mappings":"AAAA,KACI,sB","sources":["webpack:///./resources/scss/admin.scss"],"sourcesContent":["body {\n    background-color: white;\n}"],"names":[],"sourceRoot":""}

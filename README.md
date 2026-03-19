@@ -6,7 +6,7 @@ A Laravel 12 + React 19 site that displays fighting game events run by BaalsDepe
 
 - **Backend:** PHP 8.4, Laravel 12
 - **Frontend:** React 19, Webpack, SCSS
-- **Data:** Events from `organizer-event-db.json` (API: `GET /api/events`)
+- **Data:** Events stored in MariaDB and exposed via Laravel Eloquent (seeded from `organizer-event-db.json`, API: `GET /api/events`)
 - **Docker:** PHP app + MariaDB with volumes for local development
 
 ## Run locally
@@ -17,17 +17,30 @@ A Laravel 12 + React 19 site that displays fighting game events run by BaalsDepe
 
    ```bash
    cp .env.example .env
-   docker run --rm -v "$(pwd):/app" -w /app composer:latest php artisan key:generate
+   # generate app key using the app image (has pdo_mysql/mariadb driver)
+   docker compose run --rm app php artisan key:generate
    docker run --rm -v "$(pwd):/app" -w /app node:22-alpine npm install && npx webpack --mode=production
    ```
 
-2. Start app and DB:
+2. Start DB (If Migrating):
+   docker compose up -d db
+   optional: watch logs until MariaDB is accepting connections
+   docker compose logs -f db
+
+3. Run migrations and seed the MariaDB database:
 
    ```bash
-   docker compose up --build
+   docker compose run --rm app php artisan migrate
+   docker compose run --rm app php artisan db:seed
    ```
 
-3. Open **http://localhost:8000**
+4. Start app and DB:
+
+   ```bash
+   docker compose up -d --build
+   ```
+
+5. Open **http://localhost:8000**
 
 Code changes on the host are reflected in the container via the mounted volume. Rebuild frontend after changing JS/SCSS:
 
@@ -39,9 +52,15 @@ Code changes on the host are reflected in the container via the mounted volume. 
 
 ### Without Docker
 
-- PHP 8.2 + Composer: `composer install`, `cp .env.example .env`, `php artisan key:generate`, `php artisan serve`
+- PHP 8.2 + Composer: `composer install`, `cp .env.example .env`, `php artisan key:generate`, `php artisan migrate`, `php artisan db:seed`, `php artisan serve`
 - Node: `npm install`, `npm run build` (or `npm run dev` for watch)
-- Events are read from `organizer-event-db.json`; no database required for the events list.
+- Events are seeded from `organizer-event-db.json` into the database; the events list is served from MariaDB via Eloquent.
+
+## Admin panel
+
+- **URL:** `/baalsdepe/admin` (login at `/baalsdepe/admin/login`).
+- **Auth:** Set `YOSHI_ADMIN_NAME` and `YOSHI_ADMIN_PASS` in `.env`; the root admin user is created/updated when you run `php artisan db:seed` (see `AdminUserSeeder`). Use that email and password to sign in.
+- **Features:** Events CRUD (list, add, edit, delete) with a Material-UI layout.
 
 ## Features
 
